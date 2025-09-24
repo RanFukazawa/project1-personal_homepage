@@ -2,13 +2,13 @@
   "name": "project1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "open index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ran Fukazawa",
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.36.0",
