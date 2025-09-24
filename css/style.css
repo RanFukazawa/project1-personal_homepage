@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* CSS for index.html */
+.index {
+    background-color: black;
+    min-height: 100vh;
+    font-family: "Impact", fantasy;
+}
+
+nav {
+    font-size: 20px;
+    background-color: antiquewhite;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(223, 140, 15);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(250, 235, 215, 0.639);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0px 10px rgba(0,0,0,0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li,
+.siderbar a {
+    width: 100%;
+}
+
+.menu-button {
+    display: none;
+}
+
+.name {
+    color:antiquewhite;
+    font-size: 23vh;
+    margin: 20px;
+    padding: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+.intro {
+    color: antiquewhite;
+    font-weight: lighter;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.index .container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.box {
+    padding: 3em;
+    margin: 3em;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box p {
+    font-size: 6vh;
+    color:antiquewhite;
+}
+
+@media(max-width: 800px) {
+    .name{
+        font-size: 12vh;
+    }
+    .intro {
+        font-size: 6vh;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+}
+
+@media(max-width: 400px) {
+    .name {
+        font-size: 100%;
+    }
+    .intro {
+        font-size: 50%s;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
+
+  
