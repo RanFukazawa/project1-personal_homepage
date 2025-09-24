@@ -15,16 +15,18 @@ This project is a personal homepage designed to showcase my artworks and a glyco
 - Node.js and npm (to install required node_modules)
 
 ## How to Install/Use
-1. Close this repository to your local machine:
+1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/RanFukazawa/project1-personal_homepage.git
 2. Navigate to the project directory:
    ```bash
-   cd project1
+   cd project1-personal_homepage
 3. Install the required node modules:
    ```bash
    npm install
-4. Open index.html in your preferred web browser to view the homepage.
+4. Start the project:
+   ```bash
+   npm start
 
 ## Author
 Ran Fukazawa
