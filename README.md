@@ -17,7 +17,7 @@ This project is a personal homepage designed to showcase my artworks and a glyco
 ## How to Install/Use
 1. Close this repository to your local machine:
    ```bash
-   git clone https://github.com/RanFukazawa/project1.git
+   git clone https://github.com/RanFukazawa/project1-personal_homepage.git
 2. Navigate to the project directory:
    ```bash
    cd project1
@@ -29,7 +29,7 @@ This project is a personal homepage designed to showcase my artworks and a glyco
 ## Author
 Ran Fukazawa
 
-[Visit my homepage](https://ranfukazawa.github.io/project1/)
+[Visit my homepage](https://ranfukazawa.github.io/project1-personal_homepage/)
 
 ## Reference
 This project was created as part of [CS5610 Project 1](https://northeastern.instructure.com/courses/225993/assignments/2901100) coursework.
