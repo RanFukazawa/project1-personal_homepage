@@ -37,7 +37,7 @@ Ran Fukazawa
 This project was created as part of [CS5610 Project 1](https://northeastern.instructure.com/courses/225993/assignments/2901100) coursework.
 
 ## Video Demonstration
-[Link to video](https://drive.google.com/file/d/1K_2689ZHpSHcQJzZSJDkvShUVjZym8bL/view?usp=drive_link)
+[Link to video](https://youtu.be/UBK8wDO2AjA)
 
 ## Generative AI Usage
 This project used **ChatGPT 5** (by OpenAI) for assistance in the following areas:  
