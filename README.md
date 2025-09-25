@@ -4,7 +4,7 @@
 This project is a personal homepage designed to showcase my artworks and a glycoinformatics project I completed in the past.The website aims to be simple, stylish, and responsive, providing visitors with an engaging and easy-to-navigate experience.
 
 ## Screenshot
-<img width="1463" height="808" alt="Screenshot 2025-09-23 at 04 09 17" src="https://github.com/user-attachments/assets/3c823932-7126-4118-ad0f-559eeeab7b88" />
+<img width="1463" height="808" alt="A thumbnail of Ran Fukazawa personal homepage" src="https://ranfukazawa.github.io/project1-personal_homepage/image/thumbnail_personalHomepage.png" />
 
 
 ## Tech Requirements
