@@ -106,23 +106,6 @@ nav a:hover {
     color:antiquewhite;
 }
 
-.image-container {
-    width: 100%;
-    padding-bottom: 75%; /* Creates a 4:3 aspect ratio container (adjust as needed) */
-    position: relative;
-    overflow: hidden;
-  }
-  
-.image-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: contain; /* Crops the image to fill the container while maintaining aspect ratio */
-    /* Other options: 'contain' (fits image within container, letterboxing), 'fill' (stretches/squashes) */
-  }
-
 @media(max-width: 800px) {
     .name{
         font-size: 12vh;
